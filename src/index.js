@@ -31,13 +31,10 @@ app.get("/billu", (req, res) => {
     return res.json({message: "billu"});
 })
 
-app.get("/motu", (req, res) => {
-    return res.json({message: "motu"});
+app.get("/motupatlu", (req, res) => {
+    return res.json({message: "motu patlu"});
 })
 
-app.get("/patlu", (req, res) => {
-    return res.json({message: "patlu"});
-})
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
