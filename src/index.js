@@ -15,7 +15,13 @@ app.get("/hello", (req, res) => {
     return res.json({message: "Hello, World!"});
 })
 
+app.get("/hi", (req, res) => {
+    return res.json({message: "Hii"});
+})
 
+app.get("/hola", (req, res) => {
+    return res.json({message: "Hii"});
+})
 
 
 app.listen(PORT, () => {
