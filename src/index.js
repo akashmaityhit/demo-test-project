@@ -23,6 +23,9 @@ app.get("/hola", (req, res) => {
     return res.json({message: "Hii"});
 })
 
+app.get("/jim", (req, res) => {
+    return res.json({message: "jim jam"});
+})
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
