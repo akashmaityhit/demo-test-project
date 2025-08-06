@@ -32,7 +32,11 @@ app.get("/billu", (req, res) => {
 })
 
 app.get("/motu", (req, res) => {
-    return res.json({message: "motu patlu"});
+    return res.json({message: "motu"});
+})
+
+app.get("/patlu", (req, res) => {
+    return res.json({message: "patlu"});
 })
 
 app.listen(PORT, () => {
